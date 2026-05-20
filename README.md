@@ -130,7 +130,7 @@ The following analyses and visualizations were created:
 
 ## 📈 Top Selling Menu Items
 
-![Top Selling Items](Screenshots/python_top_items.png)
+![Top Selling Items]()
 
 ---
 
