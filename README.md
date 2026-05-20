@@ -130,25 +130,25 @@ The following analyses and visualizations were created:
 
 ## 📈 Top Selling Menu Items
 
-![Top Selling Items](Visualizations/top_selling_items.png)
+![Top Selling Items](top_selling_items.png)
 
 ---
 
 ## 📈 Monthly Sales Trend
 
-![Monthly Sales Trend](Visualizations/monthly_sales_trend.png)
+![Monthly Sales Trend](monthly_sales_trend.png)
 
 ---
 
 ## 📈 Sales by Category
 
-![Sales by Category](Visualizations/sales_by_category.png)
+![Sales by Category](sales_by_category.png)
 
 ---
 
 ## 📈 Payment Method Distribution
 
-![Payment Method Distribution](Visualizations/payment_method_distribution.png)
+![Payment Method Distribution](payment_method_distribution.png)
 
 ---
 
