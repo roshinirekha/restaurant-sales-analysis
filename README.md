@@ -334,5 +334,6 @@ This project successfully analyzed restaurant sales data using Python, SQL, and 
 # 👩‍💻 Author
 
 Roshini R
+
 This project is part of my portfolio, demonstrating practical SQL skills used in real-world data analysis.
 ```
