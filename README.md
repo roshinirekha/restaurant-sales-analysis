@@ -37,7 +37,7 @@ The main objective of this project is to help restaurant businesses understand s
 The dataset used in this project contains restaurant sales transaction details used for analyzing customer purchasing behavior, sales trends, and business performance.
 
 - **Dataset Name:** Restaurant Sales Dataset
-- **Source:** Kaggle
+- **Format:** Excel / CSV
 - **Records:** 700+ Orders
 - **Tools Used:** Python, SQL, Power BI, Jupyter Notebook
 
@@ -45,20 +45,22 @@ This dataset provides structured information about restaurant transactions inclu
 
 ---
 
-# 📋 Columns Included
+# 📑 Columns Included
 
+- Date
+- Day
+- Time
 - Order_ID
+- Table_Number
 - Item_Name
 - Category
 - Quantity
-- Price
+- Unit_Price
 - Total_Sale
 - Payment_Method
+- Server_Name
+- Customer_Type
 - Dine_Type
-- Date
-- Month
-- Day_Name
-- Hour
 
 ---
 
@@ -89,22 +91,24 @@ The dataset helps analyze:
 
 ---
 
-# 🗂️ Schema
+## 🗂️ Schema
 
 ```sql
-CREATE TABLE sales (
-    Order_ID VARCHAR(20),
-    Item_Name VARCHAR(100),
-    Category VARCHAR(50),
-    Quantity INT,
-    Price DECIMAL(10,2),
-    Total_Sale DECIMAL(10,2),
-    Payment_Method VARCHAR(50),
-    Dine_Type VARCHAR(50),
-    Date DATE,
-    Month VARCHAR(20),
-    Day_Name VARCHAR(20),
-    Hour INT
+CREATE TABLE restaurant_sales (
+    date DATE,
+    day VARCHAR(20),
+    time TIME,
+    order_id VARCHAR(20),
+    table_number INT,
+    item_name VARCHAR(100),
+    category VARCHAR(50),
+    quantity INT,
+    unit_price DECIMAL(10,2),
+    total_sale DECIMAL(10,2),
+    payment_method VARCHAR(20),
+    server_name VARCHAR(50),
+    customer_type VARCHAR(20),
+    dine_type VARCHAR(20)
 );
 ```
 
