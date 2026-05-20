@@ -94,21 +94,20 @@ The dataset helps analyze:
 ## 🗂️ Schema
 
 ```sql
-CREATE TABLE restaurant_sales (
-    date DATE,
-    day VARCHAR(20),
-    time TIME,
-    order_id VARCHAR(20),
-    table_number INT,
-    item_name VARCHAR(100),
-    category VARCHAR(50),
-    quantity INT,
-    unit_price DECIMAL(10,2),
-    total_sale DECIMAL(10,2),
-    payment_method VARCHAR(20),
-    server_name VARCHAR(50),
-    customer_type VARCHAR(20),
-    dine_type VARCHAR(20)
+CREATE TABLE sales (
+Date DATE,
+Time TIME,
+Order_ID VARCHAR(20),
+Table_Number INT,
+Item_Name VARCHAR(100),
+Category VARCHAR(50),
+Quantity INT,
+Unit_Price FLOAT,
+Total_Sale FLOAT,
+Payment_Method VARCHAR(50),
+Server_Name VARCHAR(50),
+Customer_Type VARCHAR(50),
+Dine_Type VARCHAR(50)
 );
 ```
 
