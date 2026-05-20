@@ -173,7 +173,7 @@ The dashboard includes:
 
 ## 📈 Dashboard Overview
 
-![Power BI Dashboard](Power BI_Dashboard.png)
+![Power BI Dashboard](power_bi_dashboard.png)
 
 ---
 
