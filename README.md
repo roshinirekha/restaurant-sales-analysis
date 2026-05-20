@@ -173,7 +173,7 @@ The dashboard includes:
 
 ## 📈 Dashboard Overview
 
-![Restaurant Dashboard](Screenshots/dashboard.png)
+![Power BI Dashboard](Power BI_Dashboard.png)
 
 ---
 
